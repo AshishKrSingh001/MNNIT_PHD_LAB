@@ -1,0 +1,19 @@
+# Ignore compiled binaries everywhere
+a.out
+**/a.out
+
+# Ignore all hidden files/folders
+.*
+
+# Ignore everything by default
+*
+
+# But allow directories to be traversed (needed for nested folders)
+!*/
+
+# Then explicitly allow only the file types you want
+!*.c
+!*.csv
+
+# Always allow .gitignore itself
+!.gitignore
