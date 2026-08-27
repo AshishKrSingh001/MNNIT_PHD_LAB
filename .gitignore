@@ -1,6 +1,7 @@
 # Ignore compiled binaries everywhere
 a.out
 **/a.out
+**/a.exe
 
 # Ignore all hidden files/folders
 .*
@@ -14,6 +15,7 @@ a.out
 # Then explicitly allow only the file types you want
 !*.c
 !*.csv
+!*.pdf
 
 # Always allow .gitignore itself
 !.gitignore
